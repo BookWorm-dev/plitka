@@ -1,311 +1,335 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Тротуарна плитка</title>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Тротуарна плитка</title>
+	<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" as="style"
+		onload="this.onload=null;this.rel='stylesheet'" />
+	<noscript>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400..700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+	</noscript>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400..700&family=Roboto:wght@400;500;700&display=swap"
+		rel="stylesheet" />
+	<link rel="preload" href="./css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+	<noscript>
 		<link rel="stylesheet" href="./css/style.css" />
-	</head>
+	</noscript>
+</head>
 
-	<body>
-		<header class="header" id="header">
-	<div class="container">
-		<div class="header__top">
-			<div class="header__phone_list">
-				<div class="header__phone_icon_w">
-					<img class="header__phone_icon" src="./imgs/svg/phone.svg" alt="Phone" />
+<body>
+	<header class="header" id="header">
+		<div class="container">
+			<div class="header__top">
+				<div class="header__phone_list">
+					<div class="header__phone_icon_w">
+						<img class="header__phone_icon" src="./imgs/svg/phone.svg" alt="Phone" />
+					</div>
+					<a href="tel:+380503092527" class="header__phone_link">+38(050) 309 25 27</a>
+					<a href="tel:+380678095049" class="header__phone_link">+38(067) 809 50 49</a>
 				</div>
-				<a href="tel:+380503092527" class="header__phone_link">+38(050) 309 25 27</a>
-				<a href="tel:+380678095049" class="header__phone_link">+38(067) 809 50 49</a>
-			</div>
-			<div class="header__location">
-				<div class="header__location_icon_w">
-					<img class="header__location_icon" src="./imgs/svg/pin.svg" alt="Location" />
-				</div>
+				<div class="header__location">
+					<div class="header__location_icon_w">
+						<img class="header__location_icon" src="./imgs/svg/pin.svg" alt="Location" />
+					</div>
 					м. Харьків, пр-т Героїв Харкова, 199-а
+				</div>
+			</div>
+			<div class="header__bottom">
+				<nav class="header_nav">
+					<ul class="header_nav__in">
+						<li class="header_nav__item">
+							<a class="header_nav__link" href="./">Головна</a>
+						</li>
+						<li class="header_nav__item">
+							<a class="header_nav__link" href="./delivery.html">Каталог</a>
+							<ul class="header_dropdown header_dropdown--lev_1">
+								<li class="header_dropdown__item">
+									<a href="#" class="header_dropdown__link">Сухопрессованная плитка</a>
+								</li>
+								<li class="header_dropdown__item">
+									<a href="#" class="header_dropdown__link">Сухопрессованная плитка</a>
+								</li>
+								<li class="header_dropdown__item">
+									<a href="#" class="header_dropdown__link">Сухопрессованная плитка</a>
+									<ul class="header_dropdown header_dropdown--lev_2">
+										<li class="header_dropdown__item">
+											<a href="#" class="header_dropdown__link">Сухопрессованная плитка 1</a>
+										</li>
+										<li class="header_dropdown__item">
+											<a href="#" class="header_dropdown__link">Сухопрессованная плитка 2</a>
+										</li>
+										<li class="header_dropdown__item">
+											<a href="#" class="header_dropdown__link">Сухопрессованная плитка 3</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="header_nav__item">
+							<a class="header_nav__link" href="./services.html">Услуги</a>
+						</li>
+					</ul>
+					<a href="./" class="main_logo_w">
+						<img src="./imgs/logo.png" alt="logo" class="main_logo" />
+					</a>
+					<ul class="header_nav__in">
+						<li class="header_nav__item">
+							<a class="header_nav__link" href="./price_list.html">Прайс</a>
+						</li>
+						<li class="header_nav__item">
+							<a class="header_nav__link" href="./">Новости</a>
+						</li>
+						<li class="header_nav__item">
+							<a class="header_nav__link" href="./">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="menu_icon">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
 			</div>
 		</div>
-		<div class="header__bottom">
-			<nav class="header_nav">
-				<ul class="header_nav__in">
-					<li class="header_nav__item">
-						<a class="header_nav__link" href="./">Головна</a>
-					</li>
-					<li class="header_nav__item">
-						<a class="header_nav__link" href="./delivery.html">Каталог</a>
-						<ul class="header_dropdown header_dropdown--lev_1">
-							<li class="header_dropdown__item">
-								<a href="#" class="header_dropdown__link">Сухопрессованная плитка</a>
-							</li>
-							<li class="header_dropdown__item">
-								<a href="#" class="header_dropdown__link">Сухопрессованная плитка</a>
-							</li>
-							<li class="header_dropdown__item">
-								<a href="#" class="header_dropdown__link">Сухопрессованная плитка</a>
-								<ul class="header_dropdown header_dropdown--lev_2">
-									<li class="header_dropdown__item">
-										<a href="#" class="header_dropdown__link">Сухопрессованная плитка 1</a>
-									</li>
-									<li class="header_dropdown__item">
-										<a href="#" class="header_dropdown__link">Сухопрессованная плитка 2</a>
-									</li>
-									<li class="header_dropdown__item">
-										<a href="#" class="header_dropdown__link">Сухопрессованная плитка 3</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li class="header_nav__item">
-						<a class="header_nav__link" href="./services.html">Услуги</a>
-					</li>
-				</ul>
-				<a href="./" class="main_logo_w">
-					<img src="./imgs/logo.png" alt="logo" class="main_logo" />
-				</a>
-				<ul class="header_nav__in">
-					<li class="header_nav__item">
-						<a class="header_nav__link" href="./price_list.html">Прайс</a>
-					</li>
-					<li class="header_nav__item">
-						<a class="header_nav__link" href="./">Новости</a>
-					</li>
-					<li class="header_nav__item">
-						<a class="header_nav__link" href="./">Контакты</a>
-					</li>
-				</ul>
-			</nav>
-			<div class="menu_icon">
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
-		</div>
-	</div>
-</header>
+	</header>
 
-		<div class="wrapper">
-			<main class="main"><section class="section section--production">
-	<div class="container">
-		<h2 class="section_title section_title__production">Производство</h2>
-		<div class="production_content">
-			<div class="production_descr">
-				Высокий уровень морозостойкости, прочности, а также износостойкости плитки фирмы «Игуана» стал возможен
-				благодаря использованию технологии полусухого вибропрессования, современного оборудования и
-				высококачественного сырья. Это является гарантией качества и долговечности.
-				<br />Верхний слой плитки состоит из гранитной крошки, которая защищает ее от преждевременного износа и
-				выгорания цвета. Плитка не наносит вреда здоровью человека, так как изготавливается из экологически
-				чистых материалов: речного песка, щебня, цемента марки «М-500». Она не выделяет в атмосферу вредных для
-				дыхания паров при нагревании на солнце.
-				<br />
-				Если необходимо провести ремонт коммуникаций, то плитка легко демонтируется, а потом устанавливается
-				повторно.
-			</div>
-			<div class="production_content_col_2">
-				<div class="picture_w">
-					<img src="./imgs/production/production_1.jpg" class="production__img" alt="" />
-				</div>
-			</div>
-		</div>
-	</div>
-</section> <section class="section">
-	<div class="container">
-		<div class="container_in">
-			<div class="block_title">
-				<h2 class="title_causes">
-					6 причин для выбора <br />
-					нашей плитки:
-				</h2>
-			</div>
-			<div class="block_causes">
-				<div class="block_causes__in">
-					<div class="box_causes">
-						<img src="./imgs/our_causes/thermometer.png" alt="" class="img_causes" />
-					</div>
-					<div class="box_descr">
-						<h3 class="descr_causes">Устойчивость к температурам</h3>
+	<div class="wrapper">
+		<main class="main">
+			<section class="section section--production">
+				<div class="container">
+					<h2 class="section_title section_title__production">Производство</h2>
+					<div class="production_content">
+						<div class="production_descr">
+							Высокий уровень морозостойкости, прочности, а также износостойкости плитки фирмы «Игуана»
+							стал возможен
+							благодаря использованию технологии полусухого вибропрессования, современного оборудования и
+							высококачественного сырья. Это является гарантией качества и долговечности.
+							<br />Верхний слой плитки состоит из гранитной крошки, которая защищает ее от
+							преждевременного износа и
+							выгорания цвета. Плитка не наносит вреда здоровью человека, так как изготавливается из
+							экологически
+							чистых материалов: речного песка, щебня, цемента марки «М-500». Она не выделяет в атмосферу
+							вредных для
+							дыхания паров при нагревании на солнце.
+							<br />
+							Если необходимо провести ремонт коммуникаций, то плитка легко демонтируется, а потом
+							устанавливается
+							повторно.
+						</div>
+						<div class="production_content_col_2">
+							<div class="picture_w">
+								<img src="./imgs/production/production_1.jpg" class="production__img" alt="" />
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="block_causes__in">
-					<div class="box_causes">
-						<img src="./imgs/our_causes/brick.png" alt="" class="img_causes" />
-					</div>
-					<div class="box_descr">
-						<h3 class="descr_causes">Исключительная прочность</h3>
+			</section>
+			<section class="section">
+				<div class="container">
+					<div class="container_in">
+						<div class="block_title">
+							<h2 class="title_causes">
+								6 причин для выбора <br />
+								нашей плитки:
+							</h2>
+						</div>
+						<div class="block_causes">
+							<div class="block_causes__in">
+								<div class="box_causes">
+									<img src="./imgs/our_causes/thermometer.png" alt="" class="img_causes" />
+								</div>
+								<div class="box_descr">
+									<h3 class="descr_causes">Устойчивость к температурам</h3>
+								</div>
+							</div>
+							<div class="block_causes__in">
+								<div class="box_causes">
+									<img src="./imgs/our_causes/brick.png" alt="" class="img_causes" />
+								</div>
+								<div class="box_descr">
+									<h3 class="descr_causes">Исключительная прочность</h3>
+								</div>
+							</div>
+							<div class="block_causes__in">
+								<div class="box_causes">
+									<img src="./imgs/our_causes/sun.png" alt="" class="img_causes" />
+								</div>
+								<div class="box_descr">
+									<h3 class="descr_causes">Долгосрочное сохранение цвета</h3>
+								</div>
+							</div>
+							<div class="block_causes__in">
+								<div class="box_causes">
+									<img src="./imgs/our_causes/pantone.png" alt="" class="img_causes" />
+								</div>
+								<div class="box_descr">
+									<h3 class="descr_causes">Широкий цветовой спектр плитки</h3>
+								</div>
+							</div>
+							<div class="block_causes__in">
+								<div class="box_causes">
+									<img src="./imgs/our_causes/snowflake.png" alt="" class="img_causes" />
+								</div>
+								<div class="box_descr">
+									<h3 class="descr_causes">Нескользкая поверхность</h3>
+								</div>
+							</div>
+							<div class="block_causes__in">
+								<div class="box_causes">
+									<img src="./imgs/our_causes/tag.png" alt="" class="img_causes" />
+								</div>
+								<div class="box_descr">
+									<h3 class="descr_causes">Доступная цена продукции</h3>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="block_causes__in">
-					<div class="box_causes">
-						<img src="./imgs/our_causes/sun.png" alt="" class="img_causes" />
-					</div>
-					<div class="box_descr">
-						<h3 class="descr_causes">Долгосрочное сохранение цвета</h3>
-					</div>
-				</div>
-				<div class="block_causes__in">
-					<div class="box_causes">
-						<img src="./imgs/our_causes/pantone.png" alt="" class="img_causes" />
-					</div>
-					<div class="box_descr">
-						<h3 class="descr_causes">Широкий цветовой спектр плитки</h3>
-					</div>
-				</div>
-				<div class="block_causes__in">
-					<div class="box_causes">
-						<img src="./imgs/our_causes/snowflake.png" alt="" class="img_causes" />
-					</div>
-					<div class="box_descr">
-						<h3 class="descr_causes">Нескользкая поверхность</h3>
-					</div>
-				</div>
-				<div class="block_causes__in">
-					<div class="box_causes">
-						<img src="./imgs/our_causes/tag.png" alt="" class="img_causes" />
-					</div>
-					<div class="box_descr">
-						<h3 class="descr_causes">Доступная цена продукции</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="section">
-    <div class="container">
-        <h2 class="section_title section_title--our_assortment">Наш ассортимент:</h2>
-        <div class="main_descr_1 main_descr_1--our_assortment">Заказчик может выбрать различные цвета плитки: серый,
-            оливковый, красный, черный,
-            серый, желтый и другие популярные расцветки. Разнообразная цветовая гамма из более15 цветов позволяет
-            создать неповторимый дизайн покрытия! Наша тротуарная плитка будет долгие годы будет украшать любую
-            территорию. <br> <br>
+			</section>
+			<section class="section">
+				<div class="container">
+					<h2 class="section_title section_title--our_assortment">Наш ассортимент:</h2>
+					<div class="main_descr_1 main_descr_1--our_assortment">Заказчик может выбрать различные цвета
+						плитки: серый,
+						оливковый, красный, черный,
+						серый, желтый и другие популярные расцветки. Разнообразная цветовая гамма из более15 цветов
+						позволяет
+						создать неповторимый дизайн покрытия! Наша тротуарная плитка будет долгие годы будет украшать
+						любую
+						территорию. <br> <br>
 
-            Компания «Игуана» предлагает тротуарную плитку по доступной цене.</div>
-        <div class="bestseller__goods">
-            <div class="plitka__block plitka__block--decor1">
-                <div class="plitka__img_block"><img src="./imgs/bestseller/old_town1.webp" alt="plitka old town"
-                        class="plitka__img" /></div>
-                <div class="plitka__title">Старый город</div>
-                <div class="plitka__info">Высота: 40мм</div>
-                <div class="plitka__info">Цвет:</div>
-                <div class="plitka__colors">
-                    <div class="plitka__color_circle plitka__color_circle--red"></div>
-                    <div class="plitka__color_circle plitka__color_circle--brown"></div>
-                    <div class="plitka__color_circle plitka__color_circle--green"></div>
-                    <div class="plitka__color_circle plitka__color_circle--yellow"></div>
-                    <div class="plitka__color_circle plitka__color_circle--black"></div>
-                </div>
-                <div class="plitka__info"><span class="bestseller_span">240 грн</span> за m2</div>
-                <a href class="btn_white_mob_mini">Подробнее</a>
-            </div>
-            <div class="plitka__block">
-                <div class="plitka__img_block"><img src="./imgs/bestseller/old_town2.webp" alt="plitka old town"
-                        class="plitka__img" /></div>
-                <div class="plitka__title">Креатив</div>
-                <div class="plitka__info">Высота: 50мм</div>
-                <div class="plitka__info">Цвет:</div>
-                <div class="plitka__colors">
-                    <div class="plitka__color_circle plitka__color_circle--grey"></div>
-                </div>
-                <div class="plitka__info"><span class="bestseller_span">245 грн</span> за m2</div>
-                <a href class="btn_white_mob_mini">Подробнее</a>
-            </div>
-            <div class="plitka__block">
-                <div class="plitka__img_block"><img src="./imgs/bestseller/old_town3.webp" alt="plitka old town"
-                        class="plitka__img" /></div>
-                <div class="plitka__title">Кирпичик</div>
-                <div class="plitka__info">Высота: 60мм</div>
-                <div class="plitka__info">Цвет:</div>
-                <div class="plitka__colors">
-                    <div class="plitka__color_circle plitka__color_circle--red"></div>
-                    <div class="plitka__color_circle plitka__color_circle--brown"></div>
-                    <div class="plitka__color_circle plitka__color_circle--green"></div>
-                    <div class="plitka__color_circle plitka__color_circle--black"></div>
-                </div>
-                <div class="plitka__info"><span class="bestseller_span">270 грн</span> за m2</div>
-                <a href class="btn_white_mob_mini">Подробнее</a>
-            </div>
-            <div class="plitka__block decor2">
-                <div class="plitka__img_block"><img src="./imgs/bestseller/old_town4.webp" alt="plitka old town"
-                        class="plitka__img" /></div>
-                <div class="plitka__title">Львовский камень</div>
-                <div class="plitka__info">Высота: 50мм</div>
-                <div class="plitka__info">Цвет:</div>
-                <div class="plitka__colors">
-                    <div class="plitka__color_circle plitka__color_circle--grey"></div>
-                </div>
-                <div class="plitka__info"><span class="bestseller_span">270 грн</span> за m2</div>
-                <a href class="btn_white_mob_mini">Подробнее</a>
-            </div>
-        </div>
-    </div>
-</section> <section class="section section--photo_gallery">
-	<div class="container">
-		<div class="photo_gallery">
-			<h2 class="section_title photo_gallery_title__decor">Фотогалерея:</h2>
-			<div class="photo_gallery__descr">
-				Посмотрите, как красиво смотрится наша плитка! Разнообразные сочетания цветов прекрасно дополнят <br>
-				эстетику любого двора!
-			</div>
-		</div>
-		<div class="img_wrapper">
-			<a href="./imgs/photo_gallery/tile_1.webp" class="img_wrapper_in" data-fancybox="gallery"
-				data-caption="Vibration-cast #1">
-				<img src="./imgs/photo_gallery/tile_1.jpg" alt="" class="photo_gallery__img" />
-			</a>
-			<a href="./imgs/photo_gallery/tile_2.webp" class="img_wrapper_in" data-fancybox="gallery"
-				data-caption="Hyper-pressed #2">
-				<img src="./imgs/photo_gallery/tile_2.webp" alt="" class="photo_gallery__img" />
-			</a>
-			<a href="./imgs/photo_gallery/tile_3.webp" class="img_wrapper_in" data-fancybox="gallery"
-				data-caption="Clinker #3">
-				<img src="./imgs/photo_gallery/tile_3.webp" alt="" class="photo_gallery__img" />
-			</a>
-			<a href="./imgs/photo_gallery/tile_4.webp" class="img_wrapper_in" data-fancybox="gallery"
-				data-caption="Rubber #4">
-				<img src="./imgs/photo_gallery/tile_4.webp" alt="" class="photo_gallery__img" />
-			</a>
-			<a href="./imgs/photo_gallery/tile_5.webp" class="img_wrapper_in" data-fancybox="gallery"
-				data-caption="Granite #5">
-				<img src="./imgs/photo_gallery/tile_5.webp" alt="" class="photo_gallery__img" />
-			</a>
-			<a href="./imgs/photo_gallery/tile_6.webp" class="img_wrapper_in" data-fancybox="gallery"
-				data-caption="Paving stones #6">
-				<img src="./imgs/photo_gallery/tile_6.webp" alt="" class="photo_gallery__img" />
-			</a>
-		</div>
-	</div>
-</section></main>
-			<footer class="footer">
-	<div class="container">
-		<div class="footer__content">
-			<div class="main_logo_w 	">
-				<img src="./imgs/logo.webp" alt="logo" class="main_logo" />
-			</div>
-			<div class="footer__item footer__item--phone_numbers">
-				<div class="footer__item_title">Телефоны</div>
-				<div class="footer__item_text footer__item_text--phone_numbers">
-					<a href="tel:+380503092527" class="footer__phone_number">+38(050) 309 25 27</a>
-					<a href="tel:+380678095049" class="footer__phone_number">+38(067) 809 50 49</a>
+						Компания «Игуана» предлагает тротуарную плитку по доступной цене.</div>
+					<div class="bestseller__goods">
+						<div class="plitka__block plitka__block--decor1">
+							<div class="plitka__img_block"><img src="./imgs/bestseller/old_town1.webp"
+									alt="plitka old town" class="plitka__img" /></div>
+							<div class="plitka__title">Старый город</div>
+							<div class="plitka__info">Высота: 40мм</div>
+							<div class="plitka__info">Цвет:</div>
+							<div class="plitka__colors">
+								<div class="plitka__color_circle plitka__color_circle--red"></div>
+								<div class="plitka__color_circle plitka__color_circle--brown"></div>
+								<div class="plitka__color_circle plitka__color_circle--green"></div>
+								<div class="plitka__color_circle plitka__color_circle--yellow"></div>
+								<div class="plitka__color_circle plitka__color_circle--black"></div>
+							</div>
+							<div class="plitka__info"><span class="bestseller_span">240 грн</span> за m2</div>
+							<a href class="btn_white_mob_mini">Подробнее</a>
+						</div>
+						<div class="plitka__block">
+							<div class="plitka__img_block"><img src="./imgs/bestseller/old_town2.webp"
+									alt="plitka old town" class="plitka__img" /></div>
+							<div class="plitka__title">Креатив</div>
+							<div class="plitka__info">Высота: 50мм</div>
+							<div class="plitka__info">Цвет:</div>
+							<div class="plitka__colors">
+								<div class="plitka__color_circle plitka__color_circle--grey"></div>
+							</div>
+							<div class="plitka__info"><span class="bestseller_span">245 грн</span> за m2</div>
+							<a href class="btn_white_mob_mini">Подробнее</a>
+						</div>
+						<div class="plitka__block">
+							<div class="plitka__img_block"><img src="./imgs/bestseller/old_town3.webp"
+									alt="plitka old town" class="plitka__img" /></div>
+							<div class="plitka__title">Кирпичик</div>
+							<div class="plitka__info">Высота: 60мм</div>
+							<div class="plitka__info">Цвет:</div>
+							<div class="plitka__colors">
+								<div class="plitka__color_circle plitka__color_circle--red"></div>
+								<div class="plitka__color_circle plitka__color_circle--brown"></div>
+								<div class="plitka__color_circle plitka__color_circle--green"></div>
+								<div class="plitka__color_circle plitka__color_circle--black"></div>
+							</div>
+							<div class="plitka__info"><span class="bestseller_span">270 грн</span> за m2</div>
+							<a href class="btn_white_mob_mini">Подробнее</a>
+						</div>
+						<div class="plitka__block decor2">
+							<div class="plitka__img_block"><img src="./imgs/bestseller/old_town4.webp"
+									alt="plitka old town" class="plitka__img" /></div>
+							<div class="plitka__title">Львовский камень</div>
+							<div class="plitka__info">Высота: 50мм</div>
+							<div class="plitka__info">Цвет:</div>
+							<div class="plitka__colors">
+								<div class="plitka__color_circle plitka__color_circle--grey"></div>
+							</div>
+							<div class="plitka__info"><span class="bestseller_span">270 грн</span> за m2</div>
+							<a href class="btn_white_mob_mini">Подробнее</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section section--photo_gallery">
+				<div class="container">
+					<div class="photo_gallery">
+						<h2 class="section_title photo_gallery_title__decor">Фотогалерея:</h2>
+						<div class="photo_gallery__descr">
+							Посмотрите, как красиво смотрится наша плитка! Разнообразные сочетания цветов прекрасно
+							дополнят <br>
+							эстетику любого двора!
+						</div>
+					</div>
+					<div class="img_wrapper">
+						<a href="./imgs/photo_gallery/tile_1.webp" class="img_wrapper_in" data-fancybox="gallery"
+							data-caption="Vibration-cast #1">
+							<img src="./imgs/photo_gallery/tile_1.jpg" alt="" class="photo_gallery__img" />
+						</a>
+						<a href="./imgs/photo_gallery/tile_2.webp" class="img_wrapper_in" data-fancybox="gallery"
+							data-caption="Hyper-pressed #2">
+							<img src="./imgs/photo_gallery/tile_2.webp" alt="" class="photo_gallery__img" />
+						</a>
+						<a href="./imgs/photo_gallery/tile_3.webp" class="img_wrapper_in" data-fancybox="gallery"
+							data-caption="Clinker #3">
+							<img src="./imgs/photo_gallery/tile_3.webp" alt="" class="photo_gallery__img" />
+						</a>
+						<a href="./imgs/photo_gallery/tile_4.webp" class="img_wrapper_in" data-fancybox="gallery"
+							data-caption="Rubber #4">
+							<img src="./imgs/photo_gallery/tile_4.webp" alt="" class="photo_gallery__img" />
+						</a>
+						<a href="./imgs/photo_gallery/tile_5.webp" class="img_wrapper_in" data-fancybox="gallery"
+							data-caption="Granite #5">
+							<img src="./imgs/photo_gallery/tile_5.webp" alt="" class="photo_gallery__img" />
+						</a>
+						<a href="./imgs/photo_gallery/tile_6.webp" class="img_wrapper_in" data-fancybox="gallery"
+							data-caption="Paving stones #6">
+							<img src="./imgs/photo_gallery/tile_6.webp" alt="" class="photo_gallery__img" />
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__content">
+					<div class="main_logo_w 	">
+						<img src="./imgs/logo.webp" alt="logo" class="main_logo" />
+					</div>
+					<div class="footer__item footer__item--phone_numbers">
+						<div class="footer__item_title">Телефоны</div>
+						<div class="footer__item_text footer__item_text--phone_numbers">
+							<a href="tel:+380503092527" class="footer__phone_number">+38(050) 309 25 27</a>
+							<a href="tel:+380678095049" class="footer__phone_number">+38(067) 809 50 49</a>
+						</div>
+					</div>
+					<div class="footer__item footer__item--address">
+						<div class="footer__item_title">Адрес</div>
+						<div class="footer__item_text">м. Харьків, пр-т Героїв Харкова,<br />199-а (ТОЦ “Sun City
+							Plaza”)</div>
+					</div>
+					<div class="footer__item footer__item--work_mode">
+						<div class="footer__item_title">Режим работы</div>
+						<address class="footer__item_text">пн - пт: 9-00 до 18-00<br />сб - вс: в тел. режиме</address>
+					</div>
 				</div>
 			</div>
-			<div class="footer__item footer__item--address">
-				<div class="footer__item_title">Адрес</div>
-				<div class="footer__item_text">м. Харьків, пр-т Героїв Харкова,<br />199-а (ТОЦ “Sun City Plaza”)</div>
-			</div>
-			<div class="footer__item footer__item--work_mode">
-				<div class="footer__item_title">Режим работы</div>
-				<address class="footer__item_text">пн - пт: 9-00 до 18-00<br />сб - вс: в тел. режиме</address>
-			</div>
-		</div>
-	</div>
-</footer>
+		</footer>
 
-		</div>
-		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
-		<script src="./js/script.min.js"></script>
-	</body>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+	<script src="./js/script.min.js"></script>
+</body>
+
 </html>
